@@ -83,7 +83,7 @@ $(function () {
             <div class="row about-about">
                 <div class="col-lg-4 col-md-6 col-sm-6 propClone about-line-top">
                     <div class="pet-grid-row">
-                 <img src="assets/images/f5.jpg" alt="product" class="img-responsive about-me">
+                 <img src="{{asset('images/f5.jpg')}}" alt="product" class="img-responsive about-me">
                     <div class="about-grids editContent">
                         <h5><a href="#page" class="editContent">Therapy Parlour</a></h5>
                         <p class="para editContent">Sit amet consect etur adipi sicing elit. Rem quib usdam corporis, dolores
@@ -93,7 +93,7 @@ $(function () {
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 propClone about-line-top">
                     <div class="pet-grid-row">
-                 <img src="assets/images/f4.jpg" alt="product" class="img-responsive about-me">
+                 <img src="{{asset('images/f4.jpg')}}" alt="product" class="img-responsive about-me">
                     <div class="about-grids editContent">
                         <h5><a href="#page" class="editContent">Quality & Caring</a></h5>
                         <p class="para editContent">Sit amet consect etur adipi sicing elit. Rem quib usdam corporis, dolores
@@ -103,7 +103,7 @@ $(function () {
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 propClone about-line-top">
                     <div class="pet-grid-row">
-                 <img src="assets/images/f3.jpg" alt="product" class="img-responsive about-me">
+                 <img src="{{asset('images/f3.jpg')}}" alt="product" class="img-responsive about-me">
                     <div class="about-grids editContent">
                         <h5><a href="#page" class="editContent">Ear Cleaning</a></h5>
                         <p class="para editContent">Sit amet consect etur adipi sicing elit. Rem quib usdam corporis, dolores
@@ -113,7 +113,7 @@ $(function () {
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 propClone about-line-top">
                     <div class="pet-grid-row">
-                 <img src="assets/images/f2.jpg" alt="product" class="img-responsive about-me">
+                 <img src="{{asset('images/f2.jpg')}}" alt="product" class="img-responsive about-me">
                     <div class="about-grids editContent">
                         <h5><a href="#page" class="editContent">Brushing</a></h5>
                         <p class="para editContent">Sit amet consect etur adipi sicing elit. Rem quib usdam corporis, dolores
@@ -123,7 +123,7 @@ $(function () {
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 propClone about-line-top">
                     <div class="pet-grid-row">
-                 <img src="assets/images/f6.jpg" alt="product" class="img-responsive about-me">
+                 <img src="{{asset('images/f6.jpg')}}" alt="product" class="img-responsive about-me">
                     <div class="about-grids editContent">
                         <h5><a href="#page" class="editContent">Clipping Fur</a></h5>
                         <p class="para editContent">Sit amet consect etur adipi sicing elit. Rem quib usdam corporis, dolores
@@ -133,7 +133,7 @@ $(function () {
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 propClone about-line-top">
                     <div class="pet-grid-row">
-                 <img src="assets/images/f1.jpg" alt="product" class="img-responsive about-me">
+                 <img src="{{asset('images/f1.jpg')}}" alt="product" class="img-responsive about-me">
                     <div class="about-grids editContent">
                         <h5><a href="#page" class="editContent">Pet Insurance</a></h5>
                         <p class="para editContent">Sit amet consect etur adipi sicing elit. Rem quib usdam corporis, dolores
@@ -152,7 +152,7 @@ $(function () {
 
 <div class="service-pet">
     <div class="image-grid">
-        <img src="assets/images/f6.jpg" alt="product" class="img-responsive about-me">
+        <img src="{{asset('images/f6.jpg')}}" alt="product" class="img-responsive about-me">
     </div>
     <div class="pet-animals">
         <h4><a href="#page">Bath, Dry &
@@ -162,7 +162,7 @@ $(function () {
 </div>
 <div class="service-pet">
     <div class="image-grid">
-        <img src="assets/images/f1.jpg" alt="product" class="img-responsive about-me">
+        <img src="{{asset('images/f1.jpg')}}" alt="product" class="img-responsive about-me">
     </div>
     <div class="pet-animals">
         <h4><a href="#page">Pets Full
@@ -172,7 +172,7 @@ $(function () {
 </div>
 <div class="service-pet">
     <div class="image-grid">
-        <img src="assets/images/f9.jpg" alt="product" class="img-responsive about-me">
+        <img src="{{asset('images/f9.jpg')}}" alt="product" class="img-responsive about-me">
     </div>
     <div class="pet-animals">
         <h4><a href="#page">Styling Your
@@ -182,7 +182,7 @@ $(function () {
 </div>
 <div class="service-pet">
     <div class="image-grid">
-        <img src="assets/images/f8.jpg" alt="product" class="img-responsive about-me">
+        <img src="{{asset('images/f8.jpg')}}" alt="product" class="img-responsive about-me">
     </div>
     <div class="pet-animals">
         <h4><a href="#page">Pets Cleaning

@@ -86,7 +86,7 @@ $(function () {
 		<div class="container">
 			<div class="row">
 				<div class="column2 col-lg-6">
-					<img src="assets/images/5.jpg" alt="product" class="img-responsive ">
+					<img src="{{asset('images/5.jpg')}}" alt="product" class="img-responsive ">
 				</div>
 				<div class="column2 image-text col-lg-6">
 					<h3 class="team-head editContent">We will make them <span class="color-text editContent">truly happy.</span></h3>
@@ -203,7 +203,7 @@ $(function () {
                     </div>
                 </div>
                 <div class="col-lg-6 position-relative back-image">
-                    <img src="assets/images/7.jpg" alt="product" class="img-responsive ">
+                    <img src="{{asset('images/7.jpg')}}" alt="product" class="img-responsive ">
                 </div>
         </div>
 </section>
@@ -279,7 +279,7 @@ $(function () {
             <div class="container">
                 <div class="gallery-image">
                   <div class="img-box">
-                    <a href="#page"> <img src="assets/images/12.jpg" alt="product" class="img-responsive "></a>
+                    <a href="#page"> <img src="{{asset('images/12.jpg')}}" alt="product" class="img-responsive "></a>
                    
                       <div class="caption">
                         <h6><a href="#page">Golden Brown Dog</a></h6>
@@ -288,7 +288,7 @@ $(function () {
                   </div>
 
                   <div class="img-box">
-                    <a href="#page"> <img src="assets/images/13.jpg" alt="product" class="img-responsive "></a>
+                    <a href="#page"> <img src="{{asset('images/13.jpg')}}" alt="product" class="img-responsive "></a>
                   
                       <div class="caption">
                         <h6><a href="#page">White & grey dog</a></h6>
@@ -297,7 +297,7 @@ $(function () {
                   
                   </div>
                   <div class="img-box">
-                    <a href="#page"> <img src="assets/images/8.jpg" alt="product" class="img-responsive "></a>
+                    <a href="#page"> <img src="{{asset('images/8.jpg')}}" alt="product" class="img-responsive "></a>
                   
                       <div class="caption">
                         <h6><a href="#page">Black & Brown dog</a></h6>
@@ -306,7 +306,7 @@ $(function () {
                     
                   </div>
                   <div class="img-box">
-                    <a href="#page"><img src="assets/images/9.jpg" alt="product" class="img-responsive "></a>
+                    <a href="#page"><img src="{{asset('images/9.jpg')}}" alt="product" class="img-responsive "></a>
                   
                       <div class="caption">
                         <h6><a href="#page">Light Grey dog</a></h6>
@@ -315,7 +315,7 @@ $(function () {
                   
                   </div>
                   <div class="img-box">
-                    <a href="#page"><img src="assets/images/10.jpg" alt="product" class="img-responsive "></a>
+                    <a href="#page"><img src="{{asset('images/10.jpg')}}" alt="product" class="img-responsive "></a>
                   
                       <div class="caption">
                         <h6><a href="#page">Dark Gray dog</a></h6>
@@ -324,7 +324,7 @@ $(function () {
                     </div>
                   </div>
                   <div class="img-box">
-                    <a href="#page"><img src="assets/images/11.jpg" alt="product" class="img-responsive "></a>
+                    <a href="#page"><img src="{{asset('images/11.jpg')}}" alt="product" class="img-responsive "></a>
                   
                       <div class="caption">
                         <h6><a href="#page">Adult Black dog</a></h6>
