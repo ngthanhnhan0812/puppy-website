@@ -82,7 +82,7 @@ $(function () {
         <div class="container">
             <div class="cwp4-two row">
             <div class="cwp4-image col-lg-6">
-                <img src="assets/images/13.jpg" alt="product" class="img-responsive about-me">
+                <img src="{{asset('images/13.jpg')}}" alt="product" class="img-responsive about-me">
             </div>
                 <div class="cwp4-text col-lg-6 ">
                     <div class="posivtion-grid">
@@ -111,7 +111,7 @@ $(function () {
 <section class="w3l-about ">
       <div class="skills-bars editContent text-center">
             <div class="container">
-              <img src="assets/images/3.jpg" alt="product" class="img-responsive about-me">
+              <img src="{{asset('images/3.jpg')}}" alt="product" class="img-responsive about-me">
 
 
               <h3>Pet Grooming & Care Center</h3>
@@ -139,13 +139,13 @@ $(function () {
 							<input type="radio" name="slides" id="slides_3">
 							<ul class="banner_slide_bg">
 								<li>
-									<img class="img" src="assets/images/5.jpg" alt="">
+									<img class="img" src="{{asset('images/5.jpg')}}" alt="">
 								</li>
 								<li>
-									<img class="img" src="assets/images/9.jpg" alt="">
+									<img class="img" src="{{asset('images/9.jpg')}}" alt="">
 								</li>
 								<li>
-									<img class="img" src="assets/images/8.jpg" alt="">
+									<img class="img" src="{{asset('images/8.jpg')}}" alt="">
 								</li>
 							
 							</ul>
@@ -174,7 +174,7 @@ $(function () {
 			<div class="main-contteam-28">
 				<div class="team-main-19 ">
 					<div class="column-19">
-						<a href="#page"><img class="img-responsive" src="assets/images/t4.jpg" alt=" "></a>
+						<a href="#page"><img class="img-responsive" src="{{asset('images/t4.jpg')}}" alt=" "></a>
 					</div>
 					<div class="right-team-9">
 						<h6><a href="F" class="title-team-28">Alexander</a></h6>
@@ -193,7 +193,7 @@ $(function () {
 				</div>
 				<div class="team-main-19">
 					<div class="column-19">
-						<a href="#page"><img class="img-responsive" src="assets/images/t3.jpg" alt=" "></a>
+						<a href="#page"><img class="img-responsive" src="{{asset('images/t3.jpg')}}" alt=" "></a>
 					</div>
 					<div class="right-team-9">
 						<h6><a href="#page" class="title-team-28">Johnson</a></h6>
@@ -212,7 +212,7 @@ $(function () {
 				</div>
 				<div class="team-main-19">
 					<div class="column-19">
-						<a href="#page"><img class="img-responsive" src="assets/images/t2.jpg" alt=" "></a>
+						<a href="#page"><img class="img-responsive" src="{{asset('images/t2.jpg')}}" alt=" "></a>
 					</div>
 					<div class="right-team-9">
 						<h6><a href="#page" class="title-team-28">Watson</a></h6>
@@ -231,7 +231,7 @@ $(function () {
 				</div>
 				<div class="team-main-19">
 					<div class="column-19">
-						<a href="#page"><img class="img-responsive" src="assets/images/t1.jpg" alt=" "></a>
+						<a href="#page"><img class="img-responsive" src="{{asset('images/t1.jpg')}}" alt=" "></a>
 					</div>
 					<div class="right-team-9">
 						<h6><a href="#page" class="title-team-28">Paul laura</a></h6>
